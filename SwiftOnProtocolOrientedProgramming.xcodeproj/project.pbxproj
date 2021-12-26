@@ -49,6 +49,7 @@
 		D04388E72778935200DD7B92 /* SwiftOnProtocolOrientedProgrammingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftOnProtocolOrientedProgrammingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D04388EB2778935200DD7B92 /* SwiftOnProtocolOrientedProgrammingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftOnProtocolOrientedProgrammingUITests.swift; sourceTree = "<group>"; };
 		D04388ED2778935200DD7B92 /* SwiftOnProtocolOrientedProgrammingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftOnProtocolOrientedProgrammingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D04388FC2778967800DD7B92 /* Protocol_Day1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Protocol_Day1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +107,7 @@
 				D04388D32778935100DD7B92 /* Assets.xcassets */,
 				D04388D52778935100DD7B92 /* LaunchScreen.storyboard */,
 				D04388D82778935100DD7B92 /* Info.plist */,
+				D04388FC2778967800DD7B92 /* Protocol_Day1.playground */,
 			);
 			path = SwiftOnProtocolOrientedProgramming;
 			sourceTree = "<group>";
