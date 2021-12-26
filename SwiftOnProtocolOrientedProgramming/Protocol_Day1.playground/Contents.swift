@@ -13,7 +13,7 @@ struct Home {
 protocol MyProtocol {
     //프로토콜 정의
     //프로토콜 요구사항
-    var myFavorite: String { get }
+    var myFavorite: String { get set }
     var myHome: Home { get }
 }
 
@@ -32,9 +32,7 @@ struct MyStruct: MyProtocol, YourProtocol, OurProtocol {
         return "MyFavorite is \(myFavorite) and my home address is \(myHome.address)"
     }
     
-    var myFavorite: String {
-        return "Soccer"
-    }
+    var myFavorite: String
     
     var myHome: Home = {
         let myHomes = Home(address: "용인 그 어딘가", myOwn: true)
@@ -42,8 +40,31 @@ struct MyStruct: MyProtocol, YourProtocol, OurProtocol {
     }()
 }
 
-let myStruct = MyStruct()
+let myStruct = MyStruct(myFavorite: "Soccer")
 print(myStruct.description)
+
+
+struct MyProtocolOnlyStruct: MyProtocol {
+    var myFavorite: String
+    
+    var myHome: Home = {
+        let myHomes = Home(address: "서울한복판", myOwn: true)
+        return myHomes
+    }()
+}
+
+let myProtocolOnlyStruct = MyProtocolOnlyStruct(myFavorite: "basketBall")
+
+//프로토콜을 하나의 타입으로 사용하여 프로토콜을 받아서 해당 프로토콜을 반환해줌.
+func updateMyProtocol(myProto: MyProtocol) -> MyProtocol {
+    var newProtocol: MyProtocol = myProto
+    newProtocol.myFavorite = "야구"
+    return newProtocol
+}
+
+print(myProtocolOnlyStruct)
+var udpatedProtocol = updateMyProtocol(myProto: myProtocolOnlyStruct)
+print(udpatedProtocol)
 
 
 
