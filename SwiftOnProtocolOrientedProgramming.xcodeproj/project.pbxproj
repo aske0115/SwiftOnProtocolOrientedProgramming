@@ -36,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D035ABD127806D1000F1E45E /* AssociatedType_Protocol.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AssociatedType_Protocol.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D035ABD22780711D00F1E45E /* Delegation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Delegation.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D04388C72778935000DD7B92 /* SwiftOnProtocolOrientedProgramming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftOnProtocolOrientedProgramming.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D04388CA2778935000DD7B92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D04388CC2778935000DD7B92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -110,6 +112,8 @@
 				D04388D82778935100DD7B92 /* Info.plist */,
 				D04388FC2778967800DD7B92 /* Protocol_Day1.playground */,
 				D06C6A76277B34D2003D5671 /* Protocol_Day2.playground */,
+				D035ABD127806D1000F1E45E /* AssociatedType_Protocol.playground */,
+				D035ABD22780711D00F1E45E /* Delegation.playground */,
 			);
 			path = SwiftOnProtocolOrientedProgramming;
 			sourceTree = "<group>";
