@@ -52,6 +52,8 @@
 		D04388EB2778935200DD7B92 /* SwiftOnProtocolOrientedProgrammingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftOnProtocolOrientedProgrammingUITests.swift; sourceTree = "<group>"; };
 		D04388ED2778935200DD7B92 /* SwiftOnProtocolOrientedProgrammingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftOnProtocolOrientedProgrammingUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D04388FC2778967800DD7B92 /* Protocol_Day1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Protocol_Day1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D04A9F502789C97B006F2967 /* Generic_Func.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Generic_Func.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D04A9F522789CD06006F2967 /* Generic_Type.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Generic_Type.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D06994FB2783142F0061CE8B /* Extension.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Extension.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D06994FC2783190D0061CE8B /* ProtocolExtension.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ProtocolExtension.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D06C6A76277B34D2003D5671 /* Protocol_Day2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Protocol_Day2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -118,6 +120,7 @@
 				D035ABD22780711D00F1E45E /* Delegation.playground */,
 				D06994FB2783142F0061CE8B /* Extension.playground */,
 				D06994FC2783190D0061CE8B /* ProtocolExtension.playground */,
+				D04A9F512789CCEA006F2967 /* Generics */,
 			);
 			path = SwiftOnProtocolOrientedProgramming;
 			sourceTree = "<group>";
@@ -137,6 +140,15 @@
 				D04388ED2778935200DD7B92 /* SwiftOnProtocolOrientedProgrammingUITestsLaunchTests.swift */,
 			);
 			path = SwiftOnProtocolOrientedProgrammingUITests;
+			sourceTree = "<group>";
+		};
+		D04A9F512789CCEA006F2967 /* Generics */ = {
+			isa = PBXGroup;
+			children = (
+				D04A9F502789C97B006F2967 /* Generic_Func.playground */,
+				D04A9F522789CD06006F2967 /* Generic_Type.playground */,
+			);
+			path = Generics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

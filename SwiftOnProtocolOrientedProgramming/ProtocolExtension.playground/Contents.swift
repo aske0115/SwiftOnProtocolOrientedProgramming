@@ -98,3 +98,29 @@ AlphaCharacterValidation2.shared.validateString(str: "a")
 AlphaCharacterValidation2.shared.validateString(str: "1")
 AlphaCharacterValidation2.shared.validateString(str: "a2")
 
+
+struct Place: Equatable {
+    let id: String
+    let latitude: Double
+    let longitude: Double
+    
+    
+    static func ==(lhs: Place, rhs: Place) -> Bool {
+        return lhs.id == rhs.id && lhs.latitude == rhs.latitude && lhs.longitude == rhs.longitude
+    }
+}
+
+
+let place1 = Place(id: "10", latitude: 10, longitude: 10)
+let place2 = Place(id: "10", latitude: 11, longitude: 11)
+let place3 = Place(id: "10", latitude: 11, longitude: 10)
+let place4 = Place(id: "11", latitude: 10, longitude: 10)
+let place5 = Place(id: "10", latitude: 10, longitude: 10)
+
+print(place1 == place2)
+print(place1 == place3)
+print(place1 == place4)
+print(place1 == place5)
+
+
+

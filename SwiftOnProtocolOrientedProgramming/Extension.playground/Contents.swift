@@ -47,3 +47,19 @@ extension String {
 
 
 print(add[2])
+
+
+extension Int {
+    func factorial() -> Int {
+        var answer = 1
+        for i in (1...self).reversed() {
+            answer *= i
+        }
+        
+        return answer
+    }
+}
+
+
+print(5.factorial())
+
