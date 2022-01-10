@@ -54,6 +54,7 @@
 		D04388FC2778967800DD7B92 /* Protocol_Day1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Protocol_Day1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D04A9F502789C97B006F2967 /* Generic_Func.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Generic_Func.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D04A9F522789CD06006F2967 /* Generic_Type.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Generic_Type.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D05F315E278C792B00AE3308 /* AssociatedType_Protocol2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AssociatedType_Protocol2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D06994FB2783142F0061CE8B /* Extension.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Extension.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D06994FC2783190D0061CE8B /* ProtocolExtension.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ProtocolExtension.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D06C6A76277B34D2003D5671 /* Protocol_Day2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Protocol_Day2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -121,6 +122,7 @@
 				D06994FB2783142F0061CE8B /* Extension.playground */,
 				D06994FC2783190D0061CE8B /* ProtocolExtension.playground */,
 				D04A9F512789CCEA006F2967 /* Generics */,
+				D05F315E278C792B00AE3308 /* AssociatedType_Protocol2.playground */,
 			);
 			path = SwiftOnProtocolOrientedProgramming;
 			sourceTree = "<group>";
