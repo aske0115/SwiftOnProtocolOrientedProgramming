@@ -58,6 +58,7 @@
 		D06994FB2783142F0061CE8B /* Extension.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Extension.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D06994FC2783190D0061CE8B /* ProtocolExtension.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ProtocolExtension.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D06C6A76277B34D2003D5671 /* Protocol_Day2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Protocol_Day2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D07F2D23278D9C5B001AEF14 /* Generic_Subscript.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Generic_Subscript.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +124,7 @@
 				D06994FC2783190D0061CE8B /* ProtocolExtension.playground */,
 				D04A9F512789CCEA006F2967 /* Generics */,
 				D05F315E278C792B00AE3308 /* AssociatedType_Protocol2.playground */,
+				D07F2D23278D9C5B001AEF14 /* Generic_Subscript.playground */,
 			);
 			path = SwiftOnProtocolOrientedProgramming;
 			sourceTree = "<group>";
