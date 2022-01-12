@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D01D1E01278F061700ACF7A2 /* CopyOnWrite.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CopyOnWrite.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D035ABD127806D1000F1E45E /* AssociatedType_Protocol.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AssociatedType_Protocol.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D035ABD22780711D00F1E45E /* Delegation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Delegation.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D04388C72778935000DD7B92 /* SwiftOnProtocolOrientedProgramming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftOnProtocolOrientedProgramming.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,6 +126,7 @@
 				D04A9F512789CCEA006F2967 /* Generics */,
 				D05F315E278C792B00AE3308 /* AssociatedType_Protocol2.playground */,
 				D07F2D23278D9C5B001AEF14 /* Generic_Subscript.playground */,
+				D01D1E01278F061700ACF7A2 /* CopyOnWrite.playground */,
 			);
 			path = SwiftOnProtocolOrientedProgramming;
 			sourceTree = "<group>";
